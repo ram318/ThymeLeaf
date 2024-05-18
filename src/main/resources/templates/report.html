@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${report.title}">Report</title>
+</head>
+<body>
+<h1 th:text="${report.title}">Report Title</h1>
+<p th:text="${report.content}">Report Content</p>
+<p><strong>Author: </strong><span th:text="${report.author}">Author Name</span></p>
+</body>
+</html>
